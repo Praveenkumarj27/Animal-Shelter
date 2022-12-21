@@ -5,7 +5,8 @@ import {
   SvgLinkedIn,
   SvgLogo,
   SvgTwitter,
-} from "../Assets/Assets";
+} from "../../Assets/Assets";
+import "./Header.css"
 
 function Header() {
   return (

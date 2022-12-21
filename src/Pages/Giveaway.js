@@ -30,11 +30,6 @@ function Giveaway() {
     "Golden Retriever",
     "Bulldog",
     "Beagle",
-    "Rottweiler",
-    "French Bulldog",
-    "Yorkshire Terrier",
-    "Boxer",
-    "Dachshund",
   ];
   const optionsBreedCat = [
     "Persian",
@@ -43,11 +38,7 @@ function Giveaway() {
     "Siamese",
     "Bengal",
     "Sphynx",
-    "British",
-    "Shorthair",
-    "American",
-    "Burmese",
-    "Russian Blue",
+   
   ];
 
   const [errors, setErrors] = React.useState({
@@ -69,21 +60,17 @@ function Giveaway() {
     }
     if (!formData.email.includes("@")) {
       emailError = "Invalid email";
-      // check if email is valid
       if (!formData.email.includes(".")) {
         emailError = "Invalid email";
       }
     }
     if (!formData.phone) {
-      // check if phone number has 10 digits
       if (formData.phone.length !== 10) {
         phoneError = "Invalid phone number";
       }
-      // check if all digits are numbers
       if (!formData.phone.match(/^[0-9]+$/)) {
         phoneError = "Invalid phone number";
       }
-      // check if phone number starts with +91
       if (!formData.phone.startsWith("+91")) {
         phoneError = "Invalid phone number";
       }
@@ -92,11 +79,9 @@ function Giveaway() {
     }
     if (!formData.pet_type) {
       petTypeError = "Pet type cannot be blank";
-      // check if pet type is valid
     }
     if (!formData.breed) {
       breedError = "Breed cannot be blank";
-      // check if breed is valid
       if (
         !optionsBreedDog.includes(formData.breed) &&
         !optionsBreedCat.includes(formData.breed)
@@ -141,14 +126,6 @@ function Giveaway() {
               ))}
             </select>
             <h6>Breed</h6>
-            {/* <select class="form-select form-select-lg mb-3">
-            <option selected value="lab">
-              Lab
-            </option>
-            <option value="germanShepard">German Shepard</option>
-            <option value="bullDog">Bull dog</option>
-            <option value="beegle">Beegle</option>
-          </select> */}
             <select
               className="form-select form-select-lg mb-3"
               value={petBreed}

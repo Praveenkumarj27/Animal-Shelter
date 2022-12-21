@@ -3,12 +3,13 @@ import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Adopt from "./Pages/Adopt"
 import Giveaway from "./Pages/Giveaway"
-import Home from './Components/Home';
-import Header from './Components/Header';
-import Footer from './Components/Footer';
+
 import DogTable from './Pages/DogTable';
 import CatTable from './Pages/CatTable';
 import PetList from "./Pages/PetList"
+import Header from './Components/Header/Header';
+import Footer from './Components/Footer/Footer';
+import Home from './Components/Home/Home';
 
 function App() {
   return (

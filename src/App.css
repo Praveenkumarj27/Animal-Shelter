@@ -43,7 +43,7 @@ body{
 }
 
 /* ---------------------------------------------------------- */
-.headerContainer {
+/* .headerContainer {
   display: flex;
   justify-content: space-between;
   padding: 1.375rem 10% 0 4%;
@@ -148,10 +148,10 @@ ul {
   .social{
       display: none;
   }
-} 
+}  */
 
 /* --------------------------------------------------------------------------------- */
-
+/* 
 .footerContainer{
   background: #131313;
   padding: 5rem 12% 5.0625rem 9%;
@@ -334,7 +334,7 @@ svg {
 
 .link {
   margin-right: 2rem;
-}
+} */
 
 
 
@@ -407,7 +407,7 @@ svg {
 
 /* ------------------------------------------------------------------------ */
 
-.main{
+/* .main{
   background-color: #ecf9ff;
   font-size: large;
 }
@@ -588,4 +588,4 @@ svg {
 .welcomeContent{
   text-align: left;
   font-size:large;
-}
+} */

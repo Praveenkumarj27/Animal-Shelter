@@ -1,6 +1,7 @@
 import React from "react";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { ImLocation2 } from "react-icons/im";
+import "./Footer.css"
 import {
   SvgFB,
   SvgLinkedIn,
@@ -8,7 +9,7 @@ import {
   SvgLogo,
   SvgMailIcon,
   SvgTwitter,
-} from "../Assets/Assets";
+} from "../../Assets/Assets";
 
 function Footer() {
   return (

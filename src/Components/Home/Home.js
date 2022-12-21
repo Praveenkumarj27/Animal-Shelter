@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { SvgCatandLady, SvgDogsAndCats } from "../Assets/Assets";
-import dogAndCat from "../Assets/img1.jpg"
-import Footer from "./Footer";
-import Header from "./Header";
+import { SvgCatandLady, SvgDogsAndCats } from "../../Assets/Assets";
+import Footer from "../Footer/Footer";
+import Header from "../Header/Header";
+
+import "./Home.css"
 
 function Home() {
   return (
