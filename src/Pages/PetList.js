@@ -1,15 +1,18 @@
 import React, { useState } from 'react'
 import { AiOutlineClose } from 'react-icons/ai';
-import Table from './Table';
+import ReactModal from 'react-modal';
+import CatTable from './CatTable';
+import Table from './DogTable';
+import Modal from "react-modal";
 
 function Pet() {
     const [open3, setOpen3] = useState(false);
     const [view, setView] = useState("dogs");
   return (
-    // <div isOpen={open3} onRequestClose={() => setOpen3(false)}>
-    //             <div className="closebutton">
-    //               <AiOutlineClose onClick={() => setOpen3(false)} size={20} />
-    //             </div>
+    <div isOpen={open3} onRequestClose={() => setOpen3(false)}>
+                <div className="closebutton">
+                  <AiOutlineClose onClick={() => setOpen3(false)} size={20} />
+                </div>
                 <div className="fromfield">
                   <h2 className="headtitle" >What all pets do we have ?</h2>
                   <br />
@@ -28,9 +31,9 @@ function Pet() {
                       CATS
                     </h6>
                   </div>
-                  {view === "dogs" ? <Table/> : <Table />}
+                  {view === "dogs" ? <Table/> : <CatTable />}
                 </div>
-            //   </div>
+               </div>
   )
 }
 

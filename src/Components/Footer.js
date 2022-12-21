@@ -42,8 +42,8 @@ function Footer() {
           </button>
         </div>
         <div className="col-lg-4" style={{textAlign:"left",marginLeft:"50px"}}>
-          <p className="heading">GET IN TOUCH</p>
-          <div className="inline">
+          <p className="heading" style={{textAlign:"left",marginLeft:"20px"}}>GET IN TOUCH</p>
+          <div className="inline" style={{textAlign:"left"}}>
           <ImLocation2 size={50} color="white" />
             <p className="con2">
               llesfnee cnu efoin eoifn oewifnewo inf sdccsdcneno ie woiwemfwokm
@@ -54,7 +54,7 @@ function Footer() {
             <SvgMailIcon />
             <p className="con3">cisubdcusb@gmail.com</p>
           </div>
-          <p className="heading">FOLLOW US</p>
+          <p className="heading"  style={{textAlign:"left",marginLeft:"20px"}}>FOLLOW US</p>
 
           <span className="link">
             <SvgTwitter />

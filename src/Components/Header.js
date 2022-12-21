@@ -1,7 +1,5 @@
 import React from "react";
 import { Link } from "react-scroll";
-
-
 import {
   SvgInstagram,
   SvgLinkedIn,
@@ -27,7 +25,7 @@ function Header() {
         </div>
       </div>
 
-      {/* <div className="social">
+      <div className="social">
         <ul>
           <li className="item">
             <Link to="/" rel="noopener noreferrer">
@@ -43,37 +41,6 @@ function Header() {
             <Link to="/" rel="noopener noreferrer">
               <SvgTwitter />
             </Link>
-          </li>
-        </ul>
-      </div> */}
-      <div className="social">
-        <ul>
-          <li className="item">
-            <a
-              href="https://www.linkedin.com/in/praveenkumar-j-082b91248/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <SvgLinkedIn/>
-            </a>
-          </li>
-          <li className="item">
-            <a
-              href="https://github.com/Praveenkumarj27"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-             <SvgInstagram/>
-            </a>
-          </li>
-          <li className="item">
-            <a
-              href="https://twitter.com/Praveenj27"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <SvgTwitter/>
-            </a>
           </li>
         </ul>
       </div>

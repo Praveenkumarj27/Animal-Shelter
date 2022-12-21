@@ -12,7 +12,7 @@ function Home() {
     <div className="main mt-5 p-5" id="home">
       <div className="container">
         <div className="row">
-          <div className="col ">
+          <div className="col-lg-6 welcomeContent">
             <h2 className="restitle">Welcome to the Animal Shelter !</h2>
             <br />
             <p className="respra">
@@ -38,12 +38,13 @@ function Home() {
                 What all pets do we have ?
               </Link>
             </div>
+            </div>
             <div className="col ">
-              <img src={dogAndCat} alt="PetImage" className="petimg" />
+            
+              <SvgDogsAndCats  />
             </div>
           </div>
         </div>
-      </div>
       <div className="main mt-5 p-5">
         <div className="container">
           <div className="row">
