@@ -1,21 +1,6 @@
 import React, { useEffect, useState } from "react";
 
 function Adopt() {
-  const optionsBreedDog = [
-    "Poodle",
-    "Labrador",
-    "German Shepherd",
-    "Golden Retriever",
-    "Bulldog",
-    "Beagle",
-  ];
-  const optionsBreedCat = [
-    "Persian",
-    "Maine Co",
-    "Ragdoll",
-    "Siamese",
-    "Bengal",
-  ];
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -33,12 +18,28 @@ function Adopt() {
     setFormData({ ...formData, pet_type: petType });
   }, [petType]);
 
+  const optionsBreedDog = [
+    "Poodle",
+    "Labrador",
+    "German Shepherd",
+    "Golden Retriever",
+    "Bulldog",
+    "Beagle",
+  ];
+  const optionsBreedCat = [
+    "Persian",
+    "Maine Co",
+    "Ragdoll",
+    "Siamese",
+    "Bengal",
+  ];
   const [errors, setErrors] = React.useState({
     name: "",
     email: "",
     phone: "",
+    pet_type: "",
+    breed: "",
   });
-
   const validate = () => {
     let nameError = "";
     let emailError = "";
