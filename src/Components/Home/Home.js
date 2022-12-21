@@ -14,14 +14,14 @@ function Home() {
         <div className="container">
           <div className="row">
             <div className="col-lg-6 welcomeContent">
-              <h2 className="restitle">Welcome to the Animal Shelter !</h2>
+              <h2 className="title">Welcome to the Animal Shelter !</h2>
               <br />
-              <p className="respra">
+              <p className="content">
                 Glad that you care for the animals so much.We make sure that
                 you'll not repent your decision of adopting your favorite pet !!{" "}
               </p>
 
-              <div className="b1">
+              <div className="button">
                 <Link to={"/adopt"} type="button" className="btn">
                   Adopt
                 </Link>
@@ -43,7 +43,7 @@ function Home() {
                   We do take in pets if you can't take care of them !
                 </h2>
                 <br />
-                <p className="respra1">
+                <p className="content1">
                   Lorem epsum fbsdifcbij fkjebfkjebfkejbfewkjbfwkejbfwkefefb wef
                   wef efnwekjfbkewjfb wkje febf weubfwef wiuefb ewfu webfuwe
                   bfewufb efb ebf uewbfiuwefbwefweiuf wueibf iuwbefiu

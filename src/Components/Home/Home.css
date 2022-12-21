@@ -2,15 +2,13 @@
     background-color: #ecf9ff;
     font-size: large;
   }
-  .headtitle{
+  .welcomeContent{
     text-align: left;
+    font-size:large;
   }
-  .petimg{
-    display: flex;
-    width: 350px;
-    height: 204px;
-    margin: auto;    
-  }
+ .title{
+  text-align: left;
+ }
   .btn{
     background-color: #FF6584;
     margin-right: 10px;
@@ -24,10 +22,10 @@
     text-align: end;
     
   }
-  .respra1{
+  .content1{
     text-align: end;
   }
-  .b1{
+  .button{
     color: white;
   }
   .b{
@@ -44,62 +42,12 @@
     margin: auto;
     padding: 10px;
   }
-  .closebutton{
-    text-align: end;
-    cursor: pointer;
-    font-size: medium;
-    background-color: #ecf9ff;
-  }
-  .fromfield{
-    background-color: #ecf9ff;
-    margin: auto;
-    padding: 10px;
-    font-family: 'Roboto', sans-serif;
-  }
-  .submitbutton{
-    display: flex;
-    justify-content: flex-end;
-    color: white;
-  }
-  .star{
-    color: red;
-  }
-  .error{
-    font-size: small;
-    color: red;
-  }
-  .headtitle{
-    font-weight: bolder;
-  }
-  .hidetable{
-    display:flex;
-    margin: auto;
-    padding: 10px;
-  
-  }
-  .hidetable h6{
-    cursor: pointer;
-    font-weight: bolder;  
-    margin:5px;
-  }
-  .line{
-    font-size: 40px;
-    background-color: blue;
-  }
-  .hideimage{
-    display: none;
-  }
+ 
+ 
   
   @media (max-width:456px) {
-   .petimg{
-    display: none;
-   }
-   .hideimage{
-    display: block;
-    width: 286px;
-    height: 138px;
-  } 
-  .restitle{
+  
+  .title{
     text-align: center;
     font-size: 19px;
     margin: auto;
@@ -109,7 +57,7 @@
     width: 290px;
     margin: 10px;
   }
-  .respra{
+  .content{
     text-align: center;
     margin: auto;
   }
@@ -118,13 +66,9 @@
     font-size: 19px;
     margin: auto;
   }
-  .respra1{
+  .content1{
     text-align:center;
     margin: auto;
-  }
-  .lastimg{
-    width: 290px;
-    margin: 10px;
   }
   
   }
@@ -139,7 +83,7 @@
         width: 242px;
         height: 109px;
     } 
-    .restitle{
+    .title{
         text-align: center;
         font-size: 16px;
         margin: auto;
@@ -149,7 +93,7 @@
         width: 221px;
         margin: 10px;
     }
-    .respra{
+    .content{
         text-align: center;
         margin: auto;
         font-size: 13px;
@@ -159,7 +103,7 @@
         font-size: 15px;
         margin: auto;
     }
-    .respra1{
+    .content1{
         text-align:center;
         font-size: 13px;
         margin: auto;
@@ -176,7 +120,4 @@
     }
   }
   
-  .welcomeContent{
-    text-align: left;
-    font-size:large;
-  }
+  

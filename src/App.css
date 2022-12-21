@@ -59,3 +59,23 @@ body{
   background-color: #ebf9ff;
 }
 
+.headtitle{
+  font-weight: bolder;
+  text-align: left;
+  margin: 10px;
+}
+.hidetable{
+  display:flex;
+  margin: auto;
+  padding: 10px;
+}
+.hidetable h6{
+  cursor: pointer;
+  font-weight: bolder;  
+  margin:5px;
+}
+.fromfield{
+  margin: auto;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+}
